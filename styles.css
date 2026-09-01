@@ -144,6 +144,33 @@ footer p { margin: 0; }
   section:not(.intro) { padding: 4rem 0; }
   .facts div { grid-template-columns: 1fr; gap: .2rem; }
   footer { flex-direction: column; gap: .75rem; }
+  .language-choices { grid-template-columns: 1fr; }
+}
+
+.language-link {
+  min-width: 2.2rem;
+  padding: .2rem .45rem;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: .75rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.translation-note { max-width: 700px; margin-top: 1rem; color: var(--muted); font-size: .95rem; }
+.language-page main { width: min(100% - 2.5rem, 1060px); }
+.language-intro { min-height: 100vh; border-bottom: 0; }
+.language-intro h1 span { color: var(--muted); }
+.language-choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; width: min(100%, 700px); margin-top: 2.5rem; }
+.language-choices a { display: flex; flex-direction: column; min-height: 8rem; justify-content: space-between; padding: 1.35rem; border: 1px solid var(--ink); color: var(--ink); text-decoration: none; }
+.language-choices a:hover { background: var(--white); color: var(--accent-dark); }
+.language-choices strong { font-family: "Trebuchet MS", sans-serif; font-size: 1.35rem; }
+.language-choices span { color: var(--muted); font-size: .9rem; }
+
+@media (max-width: 760px) {
+  .language-choices { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

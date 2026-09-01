@@ -4,6 +4,13 @@ Site statique officiel regroupant les informations légales de l'application And
 
 URL prévue : <https://renan-it.github.io/odys-legal/>
 
+Documents publiés :
+
+- français : <https://renan-it.github.io/odys-legal/fr/> ;
+- anglais : <https://renan-it.github.io/odys-legal/en/>.
+
+La version française est la version de référence. La traduction anglaise est fournie pour faciliter la compréhension et doit rester synchronisée avec elle.
+
 ## Publication
 
 Le site ne nécessite aucune compilation ni dépendance. GitHub Pages publie la branche `main` depuis la racine du dépôt.
@@ -24,6 +31,6 @@ Dans **Settings > Pages > Build and deployment**, sélectionner :
 
 ## Mise à jour
 
-Toute modification substantielle de la collecte de données, des fournisseurs réseau ou des conditions d'utilisation doit entraîner une mise à jour de la date affichée dans `index.html`.
+Toute modification substantielle de la collecte de données, des fournisseurs réseau ou des conditions d'utilisation doit entraîner une mise à jour de la date affichée dans `fr/index.html` et `en/index.html`.
 
 Les textes de ce dépôt sont fournis à titre documentaire et ne constituent pas un avis juridique.
